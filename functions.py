@@ -37,15 +37,29 @@ multiply(15,56)
 # details - full name, position, age, gender
 
 
+
+print()
+
 def employees(fullname , position, age, gender):
-     print(fullname,position,age,gender)
+     print(fullname)
+
+     print(position)
+
+     print(age)
+
+     print(gender)
 
 
 employees("Lentine Khakai", "Cyber security instructor", 30, "Female")
+print()
 employees("Nelson Oginga", "ICT Manager",28,"male")
+print()
 employees("Ken Gikunda", "managing director",35,"male")
+print()
 employees("Kimanzi Mwendwa", "Centre Manager", 42, "Male")
+print()
 employees("Peter Gachuki", "Lecturer", 37, "Male")
+print()
 
 
 
